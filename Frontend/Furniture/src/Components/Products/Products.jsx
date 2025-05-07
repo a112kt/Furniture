@@ -5,7 +5,11 @@ import { FaSearch } from "react-icons/fa";
 
 
 import { toast } from "react-toastify";
+<<<<<<< HEAD
 import { Link, NavLink } from 'react-router-dom';
+=======
+import { Link } from 'react-router-dom';
+>>>>>>> 8a816bc5778d20eece027ef7d39995361651e6fa
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -124,8 +128,12 @@ const Products = () => {
               key={product._id}
               className="main_color2 shadow-lg rounded-2xl overflow-hidden w-72 text-center transform hover:scale-105 transition duration-300"
             >
+<<<<<<< HEAD
             <NavLink to='/productDetails'>
             <div className="p-4">
+=======
+              <div className="p-4">
+>>>>>>> 8a816bc5778d20eece027ef7d39995361651e6fa
                 <img
                   src={product.imageUrl}
                   alt={product.name}
@@ -139,8 +147,11 @@ const Products = () => {
                   +
                 </button>
               </div>
+<<<<<<< HEAD
             </NavLink>
             
+=======
+>>>>>>> 8a816bc5778d20eece027ef7d39995361651e6fa
             </div>
           ))
         ) : (

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* .cart-container{
+=======
+.cart-container{
+>>>>>>> 8a816bc5778d20eece027ef7d39995361651e6fa
     width: 80%;
     margin:auto;
 
@@ -15,7 +19,11 @@
     color: #270708;
     padding: 0% 1%;
 
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> 8a816bc5778d20eece027ef7d39995361651e6fa
 
 .cartHeader{
     display: flex;

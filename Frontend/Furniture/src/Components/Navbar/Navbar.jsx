@@ -119,6 +119,17 @@ function Navbar() {
             </li>
             <li>
               <NavLink
+<<<<<<< HEAD
+=======
+                to="/blog"
+                className="Nav_link block py-2 text-white text-sm rounded-sm "
+              >
+                Blog
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+>>>>>>> 8a816bc5778d20eece027ef7d39995361651e6fa
                 to="/aboutAs"
                 className="Nav_link block py-2 text-white text-sm rounded-sm"
               >

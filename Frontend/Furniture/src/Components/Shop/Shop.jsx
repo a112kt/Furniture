@@ -70,10 +70,16 @@ const CartPage = () => {
   if (loading) return <div>Loading cart...</div>;
 
   return (
+<<<<<<< HEAD
   <div className="continer">
       
       <div className="cart-page main_color2 ">
       <div className="cart-container p-10">
+=======
+    
+    <div className="cart-page">
+      <div className="cart-container">
+>>>>>>> 8a816bc5778d20eece027ef7d39995361651e6fa
       <h2 className="cartHeader">Cart <i className="cart-icon fa-solid fa-cart-shopping"></i></h2>
       {cart.length === 0 ? (
         <div className="text-center mt-10">
@@ -119,7 +125,10 @@ const CartPage = () => {
       
     </div>
     </div>
+<<<<<<< HEAD
   </div>
+=======
+>>>>>>> 8a816bc5778d20eece027ef7d39995361651e6fa
   );
 };
 

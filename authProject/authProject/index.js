@@ -23,9 +23,15 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
+<<<<<<< HEAD
 // mongoose.connect(process.env.MONGO_URI)
 //   .then(() => console.log('✅ MongoDB connected'))
 //   .catch(err => console.error('❌ MongoDB connection error:', err));
+=======
+mongoose.connect(process.env.MONGO_URL)
+  .then(() => console.log('✅ MongoDB connected'))
+  .catch(err => console.error('❌ MongoDB connection error:', err));
+>>>>>>> 8a816bc5778d20eece027ef7d39995361651e6fa
 
 // Routes
 app.get('/', (req, res) => {
